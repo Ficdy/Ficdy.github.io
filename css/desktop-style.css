@@ -1,0 +1,121 @@
+html{
+    background-color: #FFFFFF;
+    background: url("../pic/bg.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../pic/bg.jpg", sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../pic/bg.jpg', sizingMethod='scale')";
+}
+body{
+    margin: 0;
+    font-size:14px;
+    overflow: hidden;
+    font-family: Microsoft Yahei, "Noto Serif", serif;
+}
+p{
+    color: #F6F6F6;
+    line-height: 3px;
+    margin-top: 0;
+}
+a{
+    color: #F6F6F6;
+    text-decoration:none;
+}
+ul{
+    list-style: none;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+ul > li{
+    margin: 0 1%;
+    float: left;
+}
+i
+{
+ color: #FFFFFF;
+}
+#warp{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 5%;
+    padding: 1%;
+}
+#main{
+    margin: 0;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 10%;
+}
+#title{
+    position: relative;
+    top:10%;
+    text-align: center;
+}
+#content{
+    position: relative;
+    top: 20%;
+    text-align: center;
+    width:100%;
+}
+#aphorism{
+    margin-top:3%;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+#footer
+{
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.button{
+    padding: 4px 20px;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    width: auto;
+}
+.button:hover{
+        border-color: #ebeef0;
+        color: #2e2e2e;
+        background: #ebeef0;
+}
+.button:hover a{
+        color: #000000;
+}
+.button:hover i{
+        color: #000000;
+}
+.link{
+    padding: 5px 1%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 150%;
+}
+.link:hover{
+    border-color: #ebeef0;
+    color: #2e2e2e;
+    background: #ebeef0;
+}
+.link:hover a{
+        color: #000000;
+}
+.link:hover i{
+        color: #000000;
+}
+.fr{
+    float: right;
+}
